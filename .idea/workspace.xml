@@ -83,10 +83,10 @@
       <file leaf-file-name="SupervisionActor.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/milo/actors/demo4/SupervisionActor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.720548" vertical-offset="264" max-vertical-offset="629">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.23287672" vertical-offset="204" max-vertical-offset="833">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="e#31#54#0" expanded="true" />
+                <element signature="e#31#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -771,10 +771,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/milo/actors/demo4/SupervisionActor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.720548" vertical-offset="264" max-vertical-offset="629">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.23287672" vertical-offset="204" max-vertical-offset="833">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#31#54#0" expanded="true" />
+            <element signature="e#31#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
