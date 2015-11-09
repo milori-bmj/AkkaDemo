@@ -10,8 +10,17 @@ import akka.actor.ActorSystem
 object StartActor extends App
  {
    val system = ActorSystem("AkkaDemo")
-   val workSprvsr = system.actorOf(Props[WorkSupervisor],"workSupervisor")
+   val workSprvsrChina = system.actorOf(Props[WorkSupervisor],"ChinaWorkSupervisor")
 
-   workSprvsr ! StartWork
+   val workSprvsrRow = system.actorOf(Props[WorkSupervisor],"RowWorkSupervisor")
 
- }
+
+   val chinaUri = system.settings.config.getString("demo.xml.uri.china")
+   val rowUri = system.settings.config.getString("demo.xml.uri.row")
+
+
+  workSprvsrChina ! StartWork("china",chinaUri)
+  workSprvsrRow ! StartWork("row",rowUri)
+
+
+}

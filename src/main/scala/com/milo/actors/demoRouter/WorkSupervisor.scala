@@ -7,7 +7,7 @@ import akka.routing.FromConfig
  * Created by MICHAEL on 08/11/2015.
  */
 
-case object StartWork
+case class StartWork(lang:String, uri:String)
 class WorkSupervisor extends Actor{
 
   //val system = ActorSystem("RouterDemo")
@@ -17,21 +17,22 @@ class WorkSupervisor extends Actor{
 
 
 
+
   override def receive =
   {
-    case StartWork => println("start working!"); listMonographs().foreach(m => {workerRouter ! ProcessMonograph(m)})
+    case StartWork(lang, uri) => println(s"start $lang Monographs!"); listMonographs(uri).foreach(m => {workerRouter ! ProcessMonograph(m,uri,lang)})
+
     case _ => println("unknown instruction")
   }
 
-  def listMonographs():Iterator[String] =
+  def listMonographs(uri :String):Iterator[String] =
   {
     import scala.io.Source
-    val html = Source.fromURL("http://cms.bmjgroup.com/best-practice/last-published/bp-zh-cn-live/")
+    val html = Source.fromURL(uri)
     val s = html.mkString
     val pattern = """<a href=.[0-9]*""".r
     val digitsPattern = """[0-9]*""".r
     val monos = pattern.findAllIn(s).flatMap{digitsPattern.findAllIn(_)}
-    //monos.filter((st:String) =>(st.length > 0)).foreach(println(_))
     monos.filter((st:String) =>(st.length > 0))
   }
 

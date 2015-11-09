@@ -9,25 +9,25 @@ import akka.routing.FromConfig
 /**
  * Created by MICHAEL on 08/11/2015.
  */
-case class ProcessMonograph(msg:String)
+case class ProcessMonograph(msg:String, uri:String, lang:String)
 
 class WorkerActor extends Actor {
 
   override def receive = {
 
-    case ProcessMonograph(monographName) => getXML(monographName)
+    case ProcessMonograph(monographName,uri,lang) => getXML(monographName,uri,lang)
     case _ => println("hello world")
   }
 
 
-  def getXML(monograph : String): Unit =
+  def getXML(monograph : String, uri: String, lang:String): Unit =
   {
-    val monographXmlUri = s"http://cms.bmjgroup.com/best-practice/last-published/bp-zh-cn-live/$monograph/$monograph.xml"
+    val monographXmlUri = s"$uri/$monograph/$monograph.xml"
     val xml = scala.xml.XML.load(new InputStreamReader(new URL(monographXmlUri).openStream(), "UTF-8"))
 
     xml.label match
     {
-      case s if s.endsWith("-full") =>   buildMonographJson(xml)
+      case s if s.endsWith("-full") =>   buildMonographJson(xml,lang)
 
       case s if s.endsWith("-eval") => println(s"$s:$monograph -eval")
       case s if s.endsWith("-overview") => println(s"$s:$monograph -overview")
@@ -37,9 +37,9 @@ class WorkerActor extends Actor {
 
   }
 
-  def buildMonographJson (mGphXml : scala.xml.Elem): Unit =
+  def buildMonographJson (mGphXml : scala.xml.Elem, lang:String): Unit =
   {
-    val jsonDirName = s"C:\\akkademo\\json"
+    val jsonDirName = s"C:\\akkademo\\$lang\\json"
     val monographId = mGphXml \\ ("@dx-id") text
     val monographTitle =  mGphXml \\ "monograph-info" \ "title" text
     val monographSynonym = (mGphXml \\ "monograph-info" \ "topic-synonyms"  \ "synonym") map {_ text}

@@ -13,4 +13,6 @@
 [0m[[0mdebug[0m] [0m	C:\Users\MICHAEL\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.10.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread AkkaDemo-scheduler-1 to terminate.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread AkkaDemo-akka.actor.default-dispatcher-4 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread AkkaDemo-akka.actor.default-dispatcher-4 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread AkkaDemo-akka.actor.default-dispatcher-3 to terminate.[0m
