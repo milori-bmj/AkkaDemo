@@ -15,12 +15,12 @@ object StartActor extends App
    val workSprvsrRow = system.actorOf(Props[WorkSupervisor],"RowWorkSupervisor")
 
 
-   val chinaUri = system.settings.config.getString("demo.xml.uri.china")
-   val rowUri = system.settings.config.getString("demo.xml.uri.row")
+   val chinaDir = system.settings.config.getString("demo.xml.dir.china")
+   val rowDir = system.settings.config.getString("demo.xml.dir.row")
 
 
-  workSprvsrChina ! StartWork("china",chinaUri)
-  workSprvsrRow ! StartWork("row",rowUri)
+  workSprvsrChina ! StartWork("china",chinaDir)
+  workSprvsrRow ! StartWork("row",rowDir)
 
 
 }

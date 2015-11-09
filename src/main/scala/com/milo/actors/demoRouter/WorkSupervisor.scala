@@ -1,5 +1,7 @@
 package com.milo.actors.demoRouter
 
+import java.io.File
+
 import akka.actor.{Props, ActorSystem, Actor}
 import akka.routing.FromConfig
 
@@ -7,7 +9,7 @@ import akka.routing.FromConfig
  * Created by MICHAEL on 08/11/2015.
  */
 
-case class StartWork(lang:String, uri:String)
+case class StartWork(lang:String, dir:String)
 class WorkSupervisor extends Actor{
 
   //val system = ActorSystem("RouterDemo")
@@ -20,20 +22,15 @@ class WorkSupervisor extends Actor{
 
   override def receive =
   {
-    case StartWork(lang, uri) => println(s"start $lang Monographs!"); listMonographs(uri).foreach(m => {workerRouter ! ProcessMonograph(m,uri,lang)})
+    case StartWork(lang, dir) => println(s"start $lang Monographs!"); listMonographs(dir).foreach(m => {workerRouter ! ProcessMonograph(m,dir,lang)})
 
     case _ => println("unknown instruction")
   }
 
-  def listMonographs(uri :String):Iterator[String] =
+  def listMonographs(dir :String):Array[String] =
   {
-    import scala.io.Source
-    val html = Source.fromURL(uri)
-    val s = html.mkString
-    val pattern = """<a href=.[0-9]*""".r
-    val digitsPattern = """[0-9]*""".r
-    val monos = pattern.findAllIn(s).flatMap{digitsPattern.findAllIn(_)}
-    monos.filter((st:String) =>(st.length > 0))
+
+    new File(dir).list()
   }
 
 }

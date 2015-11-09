@@ -1,29 +1,33 @@
 package com.milo.actors.demoRouter
 
-import java.io.{OutputStreamWriter, InputStreamReader}
+import java.io.{FileInputStream, OutputStreamWriter, InputStreamReader}
 import java.net.URL
 
-import akka.actor.{Actor, Props}
+import akka.actor._
 import akka.routing.FromConfig
+
+import scala.runtime.BoxedUnit
 
 /**
  * Created by MICHAEL on 08/11/2015.
  */
-case class ProcessMonograph(msg:String, uri:String, lang:String)
+case class ProcessMonograph(msg:String, dir:String, lang:String)
+
+case class WriteToFile(json:String, fileName:String)
 
 class WorkerActor extends Actor {
 
   override def receive = {
 
-    case ProcessMonograph(monographName,uri,lang) => getXML(monographName,uri,lang)
+    case ProcessMonograph(monographName,dir,lang) => getXML(monographName,dir,lang)
     case _ => println("hello world")
   }
 
 
-  def getXML(monograph : String, uri: String, lang:String): Unit =
+  def getXML(monograph : String, dir: String, lang:String): Unit =
   {
-    val monographXmlUri = s"$uri/$monograph/$monograph.xml"
-    val xml = scala.xml.XML.load(new InputStreamReader(new URL(monographXmlUri).openStream(), "UTF-8"))
+    val monographXmlUri = s"$dir\\$monograph"
+    val xml = scala.xml.XML.load(new InputStreamReader(new FileInputStream(monographXmlUri), "UTF-8"))
 
     xml.label match
     {
@@ -52,10 +56,45 @@ class WorkerActor extends Actor {
     println( s"$monographId $monographTitle $monographCategory $monographType $monographSynonym $monographAuthors $monographReviewers" )
 
 
+    val jsonStr =
+      s"""{"monograph-id":"$monographId",
+         |"monograph-title":"$monographTitle",
+         |"monograph-category":"$monographCategory",
+         |"monograph-type":"$monographType",
+         |"monograph-synonyms":"[${monographSynonym.mkString(",")}]",
+         |"monograph-authors":"[${monographAuthors.mkString(",")}]",
+         |"monograph-peer-reviewers":"[${monographReviewers.mkString(",")}]"
+       """.stripMargin
 
-    var out_file = new java.io.FileOutputStream(s"$jsonDirName\\$monographId.json")
-    var out_stream = new OutputStreamWriter(out_file,"UTF-8")
-    out_stream.write(s"$monographId $monographTitle $monographCategory $monographType $monographSynonym")
-    out_stream.close
+    val actorWriter = context.actorOf(Props(
+
+     new Actor() {
+
+
+      def receive = {
+        case WriteToFile(json,file) => writeJsonTofile(json,file); context.stop(self)
+        case _ => println( "unknown message")
+      }
+
+      def writeJsonTofile(json:String,fileName:String): Unit =
+      {
+        var out_file = new java.io.FileOutputStream(fileName)
+        var out_stream = new OutputStreamWriter(out_file,"UTF-8")
+        out_stream.write(json)
+        out_stream.close
+      }
+
+
+    }
+
+    ))
+
+   actorWriter ! WriteToFile(jsonStr,s"$jsonDirName\\$monographId.json")
+
+
+  //  var out_file = new java.io.FileOutputStream(s"$jsonDirName\\$monographId.json")
+   //var out_stream = new OutputStreamWriter(out_file,"UTF-8")
+   //out_stream.write(s"$monographId $monographTitle $monographCategory $monographType $monographSynonym")
+   //out_stream.close
   }
 }
