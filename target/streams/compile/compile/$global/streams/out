@@ -16,15 +16,15 @@
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\scala_dev\projects\AkkaPresentation\target\scala-2.11\classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 574f265f, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 72c39eda, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\classes;C:\Users\MICHAEL\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.4.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	C:\scala_dev\projects\AkkaPresentation\target\scala-2.11\classes;C:\Users\MICHAEL\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.2.jar;C:\Users\MICHAEL\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.10.jar;C:\Users\MICHAEL\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.10.jar;C:\Users\MICHAEL\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\MICHAEL\.ivy2\cache\io.netty\netty\bundles\netty-3.8.0.Final.jar;C:\Users\MICHAEL\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar;C:\Users\MICHAEL\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar;C:\Users\MICHAEL\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.10.jar[0m
+[0m[[0mdebug[0m] [0m	C:\scala_dev\projects\AkkaPresentation\target\scala-2.11\classes;C:\Users\MICHAEL\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.2.jar;C:\Users\MICHAEL\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.5.jar;C:\Users\MICHAEL\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.4.1.jar;C:\Users\MICHAEL\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.2.jar;C:\Users\MICHAEL\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar;C:\Users\MICHAEL\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.3.10.jar;C:\Users\MICHAEL\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.10.jar;C:\Users\MICHAEL\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar;C:\Users\MICHAEL\.ivy2\cache\io.netty\netty\bundles\netty-3.8.0.Final.jar;C:\Users\MICHAEL\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar;C:\Users\MICHAEL\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar;C:\Users\MICHAEL\.ivy2\cache\com.typesafe.akka\akka-testkit_2.11\jars\akka-testkit_2.11-2.3.10.jar[0m
 [0m[[33mwarn[0m] [0mthere were 6 feature warnings; re-run with -feature for details[0m
 [0m[[33mwarn[0m] [0mone warning found[0m
-[0m[[0mdebug[0m] [0mScala compilation took 25.321986498 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 29.18153639 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

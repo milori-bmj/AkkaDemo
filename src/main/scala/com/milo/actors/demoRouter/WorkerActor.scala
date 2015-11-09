@@ -5,7 +5,15 @@ import java.net.URL
 
 import akka.actor._
 import akka.routing.FromConfig
-
+import org.apache.commons._
+import org.apache.http._
+import org.apache.http.entity._
+import org.apache.http.client._
+import org.apache.http.client.methods._
+import org.apache.http.impl.client._
+import java.util.ArrayList
+import org.apache.http.message.BasicNameValuePair
+import org.apache.http.client.entity.UrlEncodedFormEntity
 import scala.runtime.BoxedUnit
 
 /**
@@ -14,6 +22,8 @@ import scala.runtime.BoxedUnit
 case class ProcessMonograph(msg:String, dir:String, lang:String)
 
 case class WriteToFile(json:String, fileName:String)
+
+case class AddToESIndex(json:String, esUrl:String)
 
 class WorkerActor extends Actor {
 
@@ -59,18 +69,16 @@ class WorkerActor extends Actor {
     val jsonStr =
       s"""{"monograph-id":"$monographId",
          |"monograph-title":"$monographTitle",
-         |"monograph-category":"$monographCategory",
+         |"monograph-category":[${monographCategory.map("\"" + _ + "\"").mkString(",")}],
          |"monograph-type":"$monographType",
-         |"monograph-synonyms":"[${monographSynonym.mkString(",")}]",
-         |"monograph-authors":"[${monographAuthors.mkString(",")}]",
-         |"monograph-peer-reviewers":"[${monographReviewers.mkString(",")}]"
+         |"monograph-synonyms":[${monographSynonym.map("\"" + _ + "\"").mkString(",")}],
+         |"monograph-authors":[${monographAuthors.map("\"" + _ + "\"").mkString(",")}],
+         |"monograph-peer-reviewers":[${monographReviewers.map("\"" + _ + "\"").mkString(",")}]}
        """.stripMargin
 
     val actorWriter = context.actorOf(Props(
 
      new Actor() {
-
-
       def receive = {
         case WriteToFile(json,file) => writeJsonTofile(json,file); context.stop(self)
         case _ => println( "unknown message")
@@ -83,14 +91,31 @@ class WorkerActor extends Actor {
         out_stream.write(json)
         out_stream.close
       }
-
-
     }
-
     ))
 
    actorWriter ! WriteToFile(jsonStr,s"$jsonDirName\\$monographId.json")
 
+
+    val esIndexUrl = context.system.settings.config.getString("demo.es.index.prefix")
+    context.actorOf(Props(
+      new Actor() {
+        def receive = {
+          case AddToESIndex(json,url) =>addToES(json,url); context.stop(self)
+          case _ => println( "unknown message")
+        }
+
+        def addToES(jsonPayload:String,esUrl:String): Unit =
+        {
+          val post = new HttpPost(esUrl)
+          val myEntity = new StringEntity(jsonPayload, ContentType.create("application/json", "UTF-8"));
+          post.setEntity(myEntity)
+          val httpclient = HttpClients.createDefault()
+          val response = httpclient.execute(post)
+        }
+        context.self ! AddToESIndex(jsonStr,s"$esIndexUrl-$lang/monograph")
+      }
+    ))
 
   //  var out_file = new java.io.FileOutputStream(s"$jsonDirName\\$monographId.json")
    //var out_stream = new OutputStreamWriter(out_file,"UTF-8")

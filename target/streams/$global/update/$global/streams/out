@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for akkapresentation#akkapresentation_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang#scala-library;2.11.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3543bb92[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9d751f2[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.4 in sbt-chain[0m
@@ -31,6 +31,51 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#httpclient;4.5[0m
+[0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpclient;4.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#httpcore;4.4.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.httpcomponents#httpcore;4.4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.2[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.9[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.9[0m
+[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.9 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.11;2.3.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.11;2.3.10 {compile=[default(compile)]}[0m
@@ -163,6 +208,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -234,6 +298,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -308,6 +391,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -381,6 +483,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -454,6 +575,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->org.apache.httpcomponents#httpcore;4.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-logging#commons-logging;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -600,9 +740,13 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5!httpclient.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.10!akka-remote_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.10!akka-actor_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.10!akka-testkit_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.1!httpcore.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.5!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)[0m
@@ -612,7 +756,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.4!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2697ms :: artifacts dl 86ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6539ms :: artifacts dl 331ms[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 compile produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 runtime produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 test produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-test.xml[0m
@@ -626,5 +770,5 @@
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 docs produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 pom produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 scala-tool produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2697ms resolve - 86ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (6539ms resolve - 331ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
