@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for akkapresentation#akkapresentation_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang#scala-library;2.11.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9d751f2[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22346823[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.4 in sbt-chain[0m
@@ -76,6 +76,185 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23[0m
+[0m[[0mdebug[0m] [0m	found org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23[0m
+[0m[[0mdebug[0m] [0m	found org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23[0m
+[0m[[0mdebug[0m] [0m	found org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.6.5.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.6.5.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.6.5.Final[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.6.5.Final[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.6.5.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.11;2.3.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-iteratees_2.11;2.3.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.3.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-iteratees_2.11;2.3.5[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-iteratees_2.11;2.3.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.11;0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-stm#scala-stm_2.11;0.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-stm#scala-stm_2.11;0.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.logging.log4j#log4j-api;2.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-api;2.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.0.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.logging.log4j#log4j-api;2.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.apache.logging.log4j#log4j-api;2.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.logging.log4j#log4j-core;2.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-core;2.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.0.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.logging.log4j#log4j-core;2.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.apache.logging.log4j#log4j-core;2.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.11;2.3.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.11;2.3.10 {compile=[default(compile)]}[0m
@@ -111,12 +290,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.2.1[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
@@ -134,6 +309,7 @@
 [0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.8.0.Final[0m
 [0m[[0mdebug[0m] [0m	found io.netty#netty;3.8.0.Final in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
@@ -227,6 +403,128 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -234,10 +532,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
@@ -250,10 +544,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
@@ -317,6 +607,128 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -324,10 +736,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
@@ -340,10 +748,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
@@ -410,6 +814,128 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -417,10 +943,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
@@ -433,10 +955,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
@@ -502,6 +1020,128 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -509,10 +1149,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
@@ -525,10 +1161,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
@@ -594,6 +1226,128 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.5->commons-codec#commons-codec;1.9 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.apache.httpcomponents#httpclient;4.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-compiler;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang#scala-reflect;2.11.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.2->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23->org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->io.netty#netty;3.6.5.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->com.typesafe.play#play-iteratees_2.11;2.3.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->org.scala-stm#scala-stm_2.11;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-stm#scala-stm_2.11;0.7->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-iteratees_2.11;2.3.5->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-api;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23->org.apache.logging.log4j#log4j-core;2.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->com.typesafe.akka#akka-remote_2.11;2.3.10 [compile->compile][0m
@@ -601,10 +1355,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)][0m
@@ -617,10 +1367,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.typesafe.akka#akka-actor_2.11;2.3.10 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.3.10->com.typesafe#config;1.2.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->io.netty#netty;3.8.0.Final [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.3.10->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
@@ -693,35 +1439,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang#scala-reflect;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang#scala-reflect;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang#scala-compiler;2.11.4 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies akkapresentation#akkapresentation_2.11;1.0->org.scala-lang#scala-compiler;2.11.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.4->jline#jline;2.12 [optional->master(*)][0m
@@ -741,22 +1478,31 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.4!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5!httpclient.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivemongo#reactivemongo_2.11;0.10.5.0.akka23!reactivemongo_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.3.10!akka-remote_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.10!akka-actor_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.10!akka-testkit_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.1!httpcore.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivemongo#reactivemongo-bson-macros_2.11;0.10.5.0.akka23!reactivemongo-bson-macros_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.11;2.3.5!play-iteratees_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.0.2!log4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.0.2!log4j-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.2!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reactivemongo#reactivemongo-bson_2.11;0.10.5.0.akka23!reactivemongo-bson_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.5!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.4!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6539ms :: artifacts dl 331ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5838ms :: artifacts dl 279ms[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 compile produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 runtime produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 test produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-test.xml[0m
@@ -770,5 +1516,5 @@
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 docs produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 pom produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for akkapresentation#akkapresentation_2.11;1.0 scala-tool produced in C:\scala_dev\projects\AkkaPresentation\target\resolution-cache\reports\akkapresentation-akkapresentation_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6539ms resolve - 331ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (5838ms resolve - 279ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

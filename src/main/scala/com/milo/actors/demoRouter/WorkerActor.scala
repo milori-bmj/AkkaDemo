@@ -25,6 +25,18 @@ case class WriteToFile(json:String, fileName:String)
 
 case class AddToESIndex(json:String, esUrl:String)
 
+case class Monograph
+(
+ mgraphId :String,
+ mgraphTitle:String,
+ mgraphSynonym:Seq[String],
+ mgraphCategory:Seq[String],
+ mgraphType:String,
+ mgraphAuthors:Seq[String],
+ mgraphReviewers:Seq[String]
+)
+
+
 class WorkerActor extends Actor {
 
   override def receive = {
@@ -39,16 +51,8 @@ class WorkerActor extends Actor {
     val monographXmlUri = s"$dir\\$monograph"
     val xml = scala.xml.XML.load(new InputStreamReader(new FileInputStream(monographXmlUri), "UTF-8"))
 
-    xml.label match
-    {
-      case s if s.endsWith("-full") =>   buildMonographJson(xml,lang)
 
-      case s if s.endsWith("-eval") => println(s"$s:$monograph -eval")
-      case s if s.endsWith("-overview") => println(s"$s:$monograph -overview")
-      case s if s.endsWith("-generic") => println(s"$s:$monograph -generic")
-      case s => println(s"$s:$monograph -unknown element")
-    }
-
+    buildMonographJson(xml,lang)
   }
 
   def buildMonographJson (mGphXml : scala.xml.Elem, lang:String): Unit =
@@ -117,6 +121,24 @@ class WorkerActor extends Actor {
       }
     ))
 
+    context.actorOf(Props(
+      new Actor() {
+        def receive = {
+          case m:Monograph =>new MongoDao().insertMonograph(lang,m); context.stop(self)
+          case _ => println( "unknown message")
+        }
+
+        context.self ! Monograph(
+          monographId,
+          monographTitle,
+          monographSynonym,
+          monographCategory,
+          monographType,
+          monographAuthors,
+          monographReviewers
+        )
+      }
+    ))
   //  var out_file = new java.io.FileOutputStream(s"$jsonDirName\\$monographId.json")
    //var out_stream = new OutputStreamWriter(out_file,"UTF-8")
    //out_stream.write(s"$monographId $monographTitle $monographCategory $monographType $monographSynonym")
